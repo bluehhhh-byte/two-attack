@@ -82,6 +82,16 @@
     var r = max > 0 ? Math.min(1, scrollY / max) : 0;
     $("progress-fill").style.width = (r * 100) + "%";
     store.set("pos", current + ":" + r.toFixed(4));
+    // 서재(같은 origin)가 읽는 이어 읽기 형식: {chapterTitle, pageIndex, totalPages, updatedAt}
+    var before = 0, total = 0;
+    N.chapters.forEach(function (c, i) { if (i < current) before += c.paragraphs.length; total += c.paragraphs.length; });
+    var idx = before + Math.round(r * (N.chapters[current].paragraphs.length - 1));
+    try {
+      localStorage.setItem("two_attack_progress_v1", JSON.stringify({
+        chapterTitle: N.chapters[current].number + " " + N.chapters[current].title,
+        pageIndex: idx, totalPages: total, updatedAt: Date.now()
+      }));
+    } catch (e) {}
   }
   addEventListener("scroll", onScroll, { passive: true });
 
