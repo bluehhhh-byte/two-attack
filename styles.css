@@ -1,0 +1,126 @@
+:root {
+  --bg: #f4f1ec;
+  --paper: #fbf9f5;
+  --ink: #1d1c1a;
+  --muted: #6d6860;
+  --line: #ddd6cb;
+  --accent: #9b2c2c;   /* 멍의 색, 붉은 테이프 */
+  --fs: 18px;
+}
+:root[data-theme="dark"] {
+  --bg: #111214;
+  --paper: #17181b;
+  --ink: #e6e2da;
+  --muted: #9a958c;
+  --line: #2b2c30;
+  --accent: #d0605a;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #111214; --paper: #17181b; --ink: #e6e2da;
+    --muted: #9a958c; --line: #2b2c30; --accent: #d0605a;
+  }
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Nanum Myeongjo", serif;
+  -webkit-font-smoothing: antialiased;
+}
+button { font: inherit; color: inherit; cursor: pointer; }
+
+/* 연령 확인 */
+.gate {
+  position: fixed; inset: 0; z-index: 50;
+  background: var(--bg);
+  display: grid; place-items: center; padding: 24px;
+}
+.gate[hidden] { display: none; }
+.gate-box { max-width: 420px; text-align: center; font-family: "Noto Sans KR", sans-serif; }
+.gate-tag {
+  display: inline-grid; place-items: center;
+  width: 52px; height: 52px; border-radius: 50%;
+  border: 2px solid var(--accent); color: var(--accent);
+  font-weight: 700; font-size: 20px; margin: 0 0 18px;
+}
+.gate h2 { font-size: 19px; line-height: 1.6; margin: 0 0 8px; }
+.gate p { color: var(--muted); margin: 0 0 24px; }
+.gate button {
+  border: 0; background: var(--ink); color: var(--bg);
+  padding: 12px 22px; border-radius: 999px; font-weight: 500;
+}
+
+/* 상단 막대 */
+.bar {
+  position: sticky; top: 0; z-index: 10;
+  display: flex; align-items: center; gap: 8px;
+  padding: 8px 12px;
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid var(--line);
+  font-family: "Noto Sans KR", sans-serif; font-size: 14px;
+}
+.bar[hidden] { display: none; }
+.bar-ch { flex: 1; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.bar-tools { display: flex; gap: 4px; }
+.bar-btn {
+  border: 1px solid var(--line); background: transparent;
+  padding: 6px 10px; border-radius: 8px; min-height: 36px;
+}
+.progress { position: absolute; left: 0; right: 0; bottom: -1px; height: 2px; }
+#progress-fill { height: 100%; width: 0; background: var(--accent); }
+
+/* 표지 */
+.cover { min-height: 100vh; display: grid; place-items: center; padding: 48px 16px; }
+.cover[hidden] { display: none; }
+.cover-inner { max-width: 560px; width: 100%; }
+.cover-kicker { font-family: "Noto Sans KR", sans-serif; letter-spacing: .2em; font-size: 12px; color: var(--muted); margin: 0; }
+.cover-title {
+  font-size: clamp(56px, 16vw, 104px); font-weight: 800;
+  margin: 8px 0 20px; letter-spacing: -.02em; line-height: 1;
+}
+.cover-def {
+  border-left: 3px solid var(--accent); padding: 4px 0 4px 14px;
+  color: var(--muted); line-height: 1.7; margin: 0 0 24px; font-size: 15px;
+}
+.cover-def b { color: var(--ink); }
+.cover-log { line-height: 1.9; margin: 0 0 28px; }
+.start, .resume {
+  border: 0; background: var(--accent); color: #fff;
+  padding: 13px 24px; border-radius: 999px;
+  font-family: "Noto Sans KR", sans-serif; font-weight: 500; margin: 0 6px 8px 0;
+}
+.resume { background: transparent; color: var(--accent); border: 1px solid var(--accent); }
+.resume[hidden] { display: none; }
+.toc { list-style: none; padding: 0; margin: 28px 0; border-top: 1px solid var(--line); }
+.toc li { border-bottom: 1px solid var(--line); }
+.toc button {
+  width: 100%; text-align: left; border: 0; background: none;
+  padding: 14px 4px; display: grid; grid-template-columns: 44px 1fr; gap: 4px 8px;
+}
+.toc .n { color: var(--accent); font-weight: 700; grid-row: span 2; }
+.toc .t { font-weight: 700; line-height: 1.5; }
+.toc .a { font-family: "Noto Sans KR", sans-serif; font-size: 12px; color: var(--muted); }
+.credit { font-family: "Noto Sans KR", sans-serif; font-size: 12px; line-height: 1.8; color: var(--muted); }
+
+/* 본문 */
+.reader { padding: 0 16px 64px; }
+.reader[hidden] { display: none; }
+.chapter { max-width: 640px; margin: 0 auto; padding-top: 48px; }
+.ch-num { font-family: "Noto Sans KR", sans-serif; color: var(--accent); font-weight: 700; letter-spacing: .1em; font-size: 13px; margin: 0; }
+.ch-title { font-size: clamp(26px, 6vw, 36px); font-weight: 800; line-height: 1.35; margin: 10px 0 6px; }
+.ch-album { font-family: "Noto Sans KR", sans-serif; font-size: 12px; color: var(--muted); margin: 0 0 48px; }
+.chapter p.body {
+  font-size: var(--fs); line-height: 2; margin: 0 0 1.1em;
+  word-break: keep-all; overflow-wrap: anywhere;
+}
+.chapter p.short { margin: 1.4em 0; }
+.chapter p.sep { text-align: center; color: var(--muted); margin: 2.6em 0; letter-spacing: .6em; }
+.pager { max-width: 640px; margin: 48px auto 0; display: flex; justify-content: space-between; gap: 12px; }
+.pager button {
+  border: 1px solid var(--line); background: var(--paper);
+  padding: 12px 16px; border-radius: 10px; font-family: "Noto Sans KR", sans-serif;
+}
+.pager button[disabled] { visibility: hidden; }
