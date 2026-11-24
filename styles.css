@@ -259,8 +259,10 @@ html[data-theme="dawn"] .book-viewport::before { opacity: 0.35; }
 .page-body-content {
   flex: 1; overflow: hidden;
   word-break: normal; overflow-wrap: break-word; text-align: justify;
-  hanging-punctuation: first;
+  /* 사파리에서 hanging-punctuation이 문단 첫 여는 따옴표(“)를 여백 밖으로 밀어 잘라 먹는다 → 끔 */
+  hanging-punctuation: none;
 }
+.page-body-content p, .scroll-content p { hanging-punctuation: none; }
 .page-body-content p.novel-para {
   text-indent: 1em; margin-bottom: 0.72em; letter-spacing: -0.005em;
   border-radius: 6px; transition: background-color 0.25s ease, color 0.25s ease;
