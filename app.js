@@ -73,16 +73,16 @@
       {
           "kind": "음악",
           "by": "단편선 순간들",
-          "title": "오늘보다 더 기쁜 날은 남은 생에 많지 않을 것이다",
+          "title": "독립",
           "year": 2024,
-          "url": "https://www.youtube.com/results?search_query=%EB%8B%A8%ED%8E%B8%EC%84%A0%20%EC%88%9C%EA%B0%84%EB%93%A4%20%EC%98%A4%EB%8A%98%EB%B3%B4%EB%8B%A4%20%EB%8D%94%20%EA%B8%B0%EC%81%9C%20%EB%82%A0%EC%9D%80%20%EB%82%A8%EC%9D%80%20%EC%83%9D%EC%97%90%20%EB%A7%8E%EC%A7%80%20%EC%95%8A%EC%9D%84%20%EA%B2%83%EC%9D%B4%EB%8B%A4"
+          "url": "https://www.youtube.com/results?search_query=%EB%8B%A8%ED%8E%B8%EC%84%A0%20%EC%88%9C%EA%B0%84%EB%93%A4%20%EB%8F%85%EB%A6%BD"
       },
       {
           "kind": "음악",
           "by": "단편선 순간들",
-          "title": "독립",
+          "title": "오늘보다 더 기쁜 날은 남은 생에 많지 않을 것이다",
           "year": 2024,
-          "url": "https://www.youtube.com/results?search_query=%EB%8B%A8%ED%8E%B8%EC%84%A0%20%EC%88%9C%EA%B0%84%EB%93%A4%20%EB%8F%85%EB%A6%BD"
+          "url": "https://www.youtube.com/results?search_query=%EB%8B%A8%ED%8E%B8%EC%84%A0%20%EC%88%9C%EA%B0%84%EB%93%A4%20%EC%98%A4%EB%8A%98%EB%B3%B4%EB%8B%A4%20%EB%8D%94%20%EA%B8%B0%EC%81%9C%20%EB%82%A0%EC%9D%80%20%EB%82%A8%EC%9D%80%20%EC%83%9D%EC%97%90%20%EB%A7%8E%EC%A7%80%20%EC%95%8A%EC%9D%84%20%EA%B2%83%EC%9D%B4%EB%8B%A4"
       },
       {
           "kind": "영화",
