@@ -387,6 +387,13 @@ html[data-theme="sepia"] .cover-title, html[data-theme="paper"] .cover-title, ht
 .btn-open-book:active { transform: translateY(0) scale(0.98); }
 
 .cover-date-meta { font-family: var(--font-reader); font-size: 0.82rem; letter-spacing: 0.1em; color: var(--text-secondary); }
+.cover-edition-link {
+  color: var(--accent);
+  font-family: var(--font-ui);
+  font-size: 0.88rem;
+  padding: 4px 10px;
+  text-underline-offset: 0.2em;
+}
 
 .cover-star-bg { fill: var(--star-ink); animation: starTwinkle 4s ease-in-out infinite; }
 .cover-star-bg.t2 { animation-delay: 1.1s; animation-duration: 5.2s; }
