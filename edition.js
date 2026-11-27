@@ -19,9 +19,9 @@
   }
 
   try {
-    await loadScript('novel-data.js?v=20261127-proof');
+    await loadScript('novel-data.js?v=20261127-villa');
     await loadScript('app.js?v=20261127-epilogue6');
-    await loadScript('guide.js?v=20261127-review7');
+    await loadScript('guide.js?v=20261127-villa');
   } catch (error) {
     document.getElementById('currentPage').textContent = '본문을 불러오지 못했습니다. 페이지를 새로고침해 주세요.';
     console.error('Reader load failed:', error);
