@@ -13,7 +13,7 @@
   }
 
   try {
-    await loadScript(revised ? 'novel-data.js?v=20261126-reinforce' : 'novel-original.js?v=ac4af11');
+    await loadScript(revised ? 'novel-data.js?v=20261127-aphorism' : 'novel-original.js?v=ac4af11');
     await loadScript('app.js?v=20261126-editions');
   } catch (error) {
     document.getElementById('currentPage').textContent = '본문을 불러오지 못했습니다. 페이지를 새로고침해 주세요.';
