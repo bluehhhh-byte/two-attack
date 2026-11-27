@@ -13,9 +13,9 @@
   }
 
   try {
-    await loadScript(revised ? 'novel-data.js?v=20261127-tower' : 'novel-original.js?v=ac4af11');
+    await loadScript(revised ? 'novel-data.js?v=20261127-review' : 'novel-original.js?v=ac4af11');
     await loadScript('app.js?v=20261126-editions');
-    if (revised) await loadScript('guide.js?v=20261127-tower');
+    if (revised) await loadScript('guide.js?v=20261127-review');
   } catch (error) {
     document.getElementById('currentPage').textContent = '본문을 불러오지 못했습니다. 페이지를 새로고침해 주세요.';
     console.error('Reader load failed:', error);
