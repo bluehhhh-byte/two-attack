@@ -19,7 +19,7 @@
   }
 
   try {
-    await loadScript('novel-data.js?v=20261127-villa');
+    await loadScript('novel-data.js?v=20261127-villa2');
     await loadScript('app.js?v=20261127-epilogue6');
     await loadScript('guide.js?v=20261127-villa');
   } catch (error) {
