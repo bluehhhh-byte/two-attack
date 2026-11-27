@@ -978,3 +978,8 @@ html[data-theme="sepia"], html[data-theme="paper"], html[data-theme="dawn"] { --
 .age-gate h2 { font-size: 19px; line-height: 1.6; margin: 0 0 8px; font-weight: 700; }
 .age-gate p { color: var(--text-secondary); margin: 0 0 24px; }
 .age-gate button { border: 1px solid var(--accent); background: var(--accent-soft); color: var(--accent); padding: 12px 22px; border-radius: 999px; font-weight: 700; cursor: pointer; }
+
+/* 에필로그: 본문 장들과 다른 층위로 */
+.toc-item[data-chapter-id="99"] { margin-top: 14px; border-top: 1px dashed var(--accent-line); border-radius: 0 0 12px 12px; opacity: 0.82; }
+.toc-item[data-chapter-id="99"] .toc-chap-title { font-size: 0.9em; font-style: italic; }
+.toc-item[data-chapter-id="99"] .toc-chap-num { letter-spacing: 0.2em; }

@@ -19,8 +19,8 @@
   }
 
   try {
-    await loadScript('novel-data.js?v=20261127-epilogue');
-    await loadScript('app.js?v=20261127-epilogue5');
+    await loadScript('novel-data.js?v=20261127-epilogue6');
+    await loadScript('app.js?v=20261127-epilogue6');
     await loadScript('guide.js?v=20261127-review7');
   } catch (error) {
     document.getElementById('currentPage').textContent = '본문을 불러오지 못했습니다. 페이지를 새로고침해 주세요.';
