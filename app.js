@@ -33,11 +33,22 @@
   const CREDITS_CHAPTER_ID = 99;
   // 다음 화 예고 — 에필로그. '*' = 장면 나눔
   const AFTERWORD_PARAS = [
-      "투 어택. 배구에서 세터가 두 번째 공을 동료에게 올려 주지 않고, 직접 상대 코트로 넘기는 공격. 이 소설에서는 두 사람이 서로에게, 그리고 끝내 자기 자신에게 던지는 공격이기도 하다.",
-      "*",
-      "이스탄불의 지명과 풍습은 실제에서 빌렸다. 라마단과 권능의 밤, 처녀의 탑 전설, 카라괴즈와 하지바트 그림자극, 발칸으로 가는 버스가 떠나는 에센레르 터미널, ‘술탄들의 리그’라 불리는 여자 배구 리그. 그 위에 세운 데미르한 그룹과 구단, 경기장, 인물은 모두 지어낸 것이다.",
-      "*",
-      "이야기는 처음부터 끝까지 엘리프의 목소리로만 쓰였다. 그래서 파티흐의 속마음은 한 줄도 적지 않았다. 그가 남긴 것은 몇 개의 문장과 패 두 개, 식은 커피 한 잔뿐이다. 그 사이를 잇는 일은 남겨진 사람과 읽는 사람의 몫으로 두었다."
+      "이듬해 3월, 스코페의 구시가지에는 아침부터 비가 왔다.",
+      "바르다르 강 위의 돌다리를 건너면 오래된 바자르가 나왔다. 구리 냄비를 두드리는 소리, 빵 굽는 냄새, 지붕 낮은 가게들. 모스크의 첨탑과 정교회의 종탑이 같은 하늘에 서 있었고, 정오가 되자 에잔과 종소리가 한꺼번에 울렸다. 어느 쪽도 상대를 기다려 주지 않았다.",
+      "파티흐는 바자르 안쪽 찻집의 창가 자리에 앉아 있었다. 간판에는 터키어와 마케도니아어가 나란히 적혀 있었다. 주인은 그에게 터키어로 차를 내주었다. 그는 빵값을 치를 때만 할머니의 말을 썼다. 발음이 틀릴 때마다 빵집 여자가 웃으며 고쳐 주었고, 그는 고쳐 주는 대로 따라 했다.",
+      "안쪽 탁자에서 노인 넷이 오케이를 두고 있었다. 한 사람이 화장실에 가며 손짓으로 그를 불렀다. 자리를 잠깐 맡아 달라는 뜻이었다. 그는 앉았다.",
+      "패를 세던 노인이 혀를 찼다. 가짜 오케이 하나가 없었다. 숫자 없는 패 두 개 가운데 하나. 몇 해째 그 자리에 맥주병 뚜껑을 놓고 둔다고 했다. 병뚜껑 안쪽에는 파란 볼펜으로 클로버 비슷한 것이 그려져 있었다.",
+      "그는 외투 안주머니에 손을 넣었다가, 빼지 않았다.",
+      "판이 돌았다. 그는 받은 패를 받은 대로 두었다. 손가락 사이로 굴리지 않았다. 노인 하나가 그 손을 보고 말했다. 이스탄불 사람은 손이 가만있지를 않던데. 그는 웃었다. 대답하지 않았다.",
+      "세 판째, 그가 이겼다. 노인들이 투덜거리며 동전을 밀어 주었다. 그는 동전을 세지 않았다.",
+      "자리 주인이 돌아왔고, 노인들은 패를 나무 상자에 쓸어 담기 시작했다. 병뚜껑이 맨 위에 얹혔다. 그는 안주머니에서 작은 것 하나를 꺼내 병뚜껑 옆에 내려놓았다. 숫자 없는, 작은 클로버 문양. 귀퉁이가 닳아 둥글어져 있었다.",
+      "노인 하나가 그것을 집어 창 쪽 불빛에 비춰 보았다. 오래된 거네. 어디서 났소.",
+      "“아버지 거예요.”",
+      "노인은 더 묻지 않았다. 병뚜껑을 자기 주머니에 넣고, 클로버 패를 상자 안 빈자리에 끼웠다. 뚜껑이 닫혔다.",
+      "찻집 구석의 텔레비전에서 터키 방송이 흘러나왔다. 여자 배구 리그의 결승 소식이었다. 화면 속 세터가 공을 올렸다. 스물세 살의 손이었다. 아래로 지나가는 자막에 데프네라는 이름이 있었다. 그는 화면을 오래 보지 않았다. 다른 이름은 나오지 않았다.",
+      "밖에는 비가 그쳐 있었다. 그는 딴 동전으로 바자르 입구의 수레에서 참깨 빵 하나를 샀다. 아직 따뜻했다. 반으로 쪼개자 참깨가 손바닥에 떨어졌다.",
+      "그는 빵을 먹으며 성벽 아래 언덕길을 걸어 내려갔다. 혼자서, 말없이.",
+      "이긴 날이었다."
   ];
   const AFTERWORD_SIGNATURE = '';
 
@@ -467,8 +478,8 @@
   const CREDITS_TOP_HTML = `
       <div class="credits-top">
                 <div class="credits-star-wrap"><span class="credits-star"></span></div>
-        <span class="chapter-kicker">덧붙이는 말</span>
-        <h2 class="credits-title">두 번째 공</h2>
+        <span class="chapter-kicker">에필로그</span>
+        <h2 class="credits-title">스코페</h2>
       </div>`;
   const creditsBottomHtml = (withButton) => `
       <div class="credits-bottom">
@@ -476,7 +487,7 @@
         ${withButton ? '<button type="button" class="btn-open-book btn-back-cover" data-action="back-to-cover">처음으로 돌아가기</button>' : ''}
       </div>`;
   // Afterword blocks, each a paginatable item; the inspiration list is one block so it stays on a single page
-  const AFTERWORD_ITEMS = AFTERWORD_PARAS.map((t) => t === '*' ? '<p class="novel-para credits-para credits-break">＊</p>' : `<p class="novel-para credits-para">${escapeHtml(t)}</p>`);
+  const AFTERWORD_ITEMS = AFTERWORD_PARAS.map((t) => t === '*' ? '<p class="novel-para credits-para credits-break">＊</p>' : `<p class="novel-para">${escapeHtml(t)}</p>`);
   const SIGNATURE_HTML = (AFTERWORD_SIGNATURE ? `<p class="novel-para credits-para credits-signature">${escapeHtml(AFTERWORD_SIGNATURE)}</p>` : '') + '<div class="credits-top credits-end-bottom"><span class="credits-end-mark">끝</span></div>';
   const INSPIRATIONS_HTML = '<div class="credits-refs"><p class="credits-ref-head">이 이야기에 영감을 준 것들</p>' +
     INSPIRATIONS.map((r, i) => `<p class="credits-ref"><a href="${r.url}" target="_blank" rel="noopener"><span class="ref-no">${i + 1}.</span> <span class="ref-kind">(${r.kind})</span> ${escapeHtml(r.by)}, 〈${escapeHtml(r.title)}〉 ${r.year ? `<span class="ref-year">(${r.year})</span>` : ''}</a></p>`).join('') +
@@ -563,8 +574,8 @@
     chapterStartPages[CREDITS_CHAPTER_ID] = pages.length;
     measureBody.classList.add('credits-page'); // measure with the credits typography, same as the rendered page
     const pushCredits = (pg, offset) => pages.push({
-      type: 'credits', chapterId: CREDITS_CHAPTER_ID, chapterTitle: '덧붙이는 말', startParaIndex: pg.start + offset, endParaIndex: pg.end + offset,
-      html: `${contentHeaderHtml('덧붙이는 말')}<div class="page-body-content credits-page">${pg.html}</div>${contentFooterHtml('')}`
+      type: 'credits', chapterId: CREDITS_CHAPTER_ID, chapterTitle: '에필로그', startParaIndex: pg.start + offset, endParaIndex: pg.end + offset,
+      html: `${contentHeaderHtml('에필로그')}<div class="page-body-content credits-page">${pg.html}</div>${contentFooterHtml('')}`
     });
     // Signature is the tail: it never sits alone, the last paragraph moves with it if needed
     fillPages(measureBody, maxBodyHeight, AFTERWORD_ITEMS, creditsItemHtml, CREDITS_TOP_HTML, SIGNATURE_HTML, true).forEach((pg) => pushCredits(pg, 0));
@@ -834,7 +845,7 @@
         if (Number(n.getAttribute('data-ratio')) <= ratio + 0.0001) {
           const id = Number(n.getAttribute('data-chapter'));
           const chap = (window.NOVEL_DATA.chapters || []).find((c) => c.id === id);
-          title = id === CREDITS_CHAPTER_ID ? '덧붙이는 말' : chap ? chap.fullTitle : '표지';
+          title = id === CREDITS_CHAPTER_ID ? '에필로그' : chap ? chap.fullTitle : '표지';
         }
       });
       return `${title} · ${Math.round(ratio * 100)}%`;
@@ -913,7 +924,7 @@
     if (state.mode === 'scroll') {
       chapterId = scrollCurrentChapter();
       const chap = (window.NOVEL_DATA.chapters || []).find((c) => c.id === chapterId);
-      el.deckChapter.textContent = chapterId === CREDITS_CHAPTER_ID ? '덧붙이는 말' : chap ? chap.fullTitle : '표지';
+      el.deckChapter.textContent = chapterId === CREDITS_CHAPTER_ID ? '에필로그' : chap ? chap.fullTitle : '표지';
       el.deckPage.textContent = `${pct}% 읽음`;
     } else if (page) {
       chapterId = page.chapterId;
@@ -964,7 +975,7 @@
         right: `${firstContent && firstContent.pageNo ? firstContent.pageNo : 1}쪽`
       }));
     });
-    items.push(tocItemHtml({ chapterId: CREDITS_CHAPTER_ID, motif: CHAPTER_MOTIFS.end, num: 'AFTER', title: '덧붙이는 말', right: '끝' }));
+    items.push(tocItemHtml({ chapterId: CREDITS_CHAPTER_ID, motif: CHAPTER_MOTIFS.end, num: 'EPILOGUE', title: '에필로그', right: '끝' }));
     el.tocList.innerHTML = items.join('');
     el.tocList.querySelectorAll('.toc-item').forEach((li) => {
       li.addEventListener('click', () => {
