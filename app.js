@@ -14,8 +14,7 @@
   'use strict';
 
   const STORAGE_KEY_SETTINGS = 'two_attack_settings_v1';
-  const revisedEdition = window.TWO_ATTACK_EDITION === 'revised';
-  const editionSuffix = revisedEdition ? '_revised' : '';
+  const editionSuffix = '';
   const STORAGE_KEY_PROGRESS = `two_attack_progress_v1${editionSuffix}`;
   const STORAGE_KEY_BOOKMARKS = `two_attack_bookmarks_v1${editionSuffix}`;
 
@@ -427,8 +426,7 @@
               <span class="epigraph-line">내가 먼저 만진다.”</span>
             </p>
             <div class="cover-foot">
-              <button type="button" class="btn-open-book" data-action="open-first-chapter">${revisedEdition ? '개작판' : '기존판'} 읽기 →</button>
-              <a class="cover-edition-link" href="${revisedEdition ? '?edition=original' : '?edition=revised'}">${revisedEdition ? '기존판' : '개작판'} 보기</a>
+              <button type="button" class="btn-open-book" data-action="open-first-chapter">읽기 시작 →</button>
               <span class="cover-date-meta">2026년 11월. 펴냄.</span>
             </div>
           </div>
