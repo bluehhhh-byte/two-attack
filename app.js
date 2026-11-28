@@ -103,14 +103,16 @@
           "by": "단편선 순간들",
           "title": "폭설 혹은 난시",
           "year": 2026,
-          "url": "https://www.youtube.com/results?search_query=%EB%8B%A8%ED%8E%B8%EC%84%A0%20%EC%88%9C%EA%B0%84%EB%93%A4%20%ED%8F%AD%EC%84%A4%20%ED%98%B9%EC%9D%80%20%EB%82%9C%EC%8B%9C"
+          "url": "https://www.youtube.com/results?search_query=%EB%8B%A8%ED%8E%B8%EC%84%A0%20%EC%88%9C%EA%B0%84%EB%93%A4%20%ED%8F%AD%EC%84%A4%20%ED%98%B9%EC%9D%80%20%EB%82%9C%EC%8B%9C",
+          "note": "흐릿하게 번지는 세계에서 안경점의 렌즈를 바꿔 끼며, 무엇을 보고 싶은지 묻는 노래."
       },
       {
           "kind": "음악",
           "by": "단편선 순간들",
           "title": "거인",
           "year": 2024,
-          "url": "https://www.youtube.com/results?search_query=%EB%8B%A8%ED%8E%B8%EC%84%A0%20%EC%88%9C%EA%B0%84%EB%93%A4%20%EA%B1%B0%EC%9D%B8"
+          "url": "https://www.youtube.com/results?search_query=%EB%8B%A8%ED%8E%B8%EC%84%A0%20%EC%88%9C%EA%B0%84%EB%93%A4%20%EA%B1%B0%EC%9D%B8",
+          "note": "세상의 아픈 일을 말없이 품어 온 이에게 기대고 싶은, 미안하고 애틋한 마음."
       },
       {
           "kind": "음악",
@@ -124,7 +126,8 @@
           "by": "단편선 순간들",
           "title": "독립",
           "year": 2024,
-          "url": "https://www.youtube.com/results?search_query=%EB%8B%A8%ED%8E%B8%EC%84%A0%20%EC%88%9C%EA%B0%84%EB%93%A4%20%EB%8F%85%EB%A6%BD"
+          "url": "https://www.youtube.com/results?search_query=%EB%8B%A8%ED%8E%B8%EC%84%A0%20%EC%88%9C%EA%B0%84%EB%93%A4%20%EB%8F%85%EB%A6%BD",
+          "note": "폭설과 폭풍의 밤을 지나, 홀로 낯선 곳의 어슴푸레한 자유로 걸어가는 노래."
       },
       {
           "kind": "음악",
@@ -132,7 +135,7 @@
           "title": "오늘보다 더 기쁜 날은 남은 생에 많지 않을 것이다",
           "year": 2024,
           "url": "https://www.youtube.com/results?search_query=%EB%8B%A8%ED%8E%B8%EC%84%A0%20%EC%88%9C%EA%B0%84%EB%93%A4%20%EC%98%A4%EB%8A%98%EB%B3%B4%EB%8B%A4%20%EB%8D%94%20%EA%B8%B0%EC%81%9C%20%EB%82%A0%EC%9D%80%20%EB%82%A8%EC%9D%80%20%EC%83%9D%EC%97%90%20%EB%A7%8E%EC%A7%80%20%EC%95%8A%EC%9D%84%20%EA%B2%83%EC%9D%B4%EB%8B%A4",
-          "note": "여섯 장의 제목은 이 노래들에서 빌려 왔다."
+          "note": "새로 눈을 뜬 아침, 어제와 결별하고 정해지지 않은 내일을 맞는 가벼운 기쁨."
       }
   ];
 
