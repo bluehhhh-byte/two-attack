@@ -96,7 +96,8 @@
           "by": "단편선 순간들",
           "title": "Alice in Deep",
           "year": 2024,
-          "url": "https://www.youtube.com/results?search_query=%EB%8B%A8%ED%8E%B8%EC%84%A0%20%EC%88%9C%EA%B0%84%EB%93%A4%20Alice%20in%20Deep"
+          "url": "https://www.youtube.com/results?search_query=%EB%8B%A8%ED%8E%B8%EC%84%A0%20%EC%88%9C%EA%B0%84%EB%93%A4%20Alice%20in%20Deep",
+          "note": "바닥 없는 깊은 곳으로 떨어지는 앨리스. 제목에서 영감을 얻었다."
       },
       {
           "kind": "음악",
@@ -119,7 +120,8 @@
           "by": "단편선 순간들",
           "title": "새들은 기쁨의 노래로 봄을 맞이한다 환희에 차",
           "year": 2026,
-          "url": "https://www.youtube.com/results?search_query=%EB%8B%A8%ED%8E%B8%EC%84%A0%20%EC%88%9C%EA%B0%84%EB%93%A4%20%EC%83%88%EB%93%A4%EC%9D%80%20%EA%B8%B0%EC%81%A8%EC%9D%98%20%EB%85%B8%EB%9E%98%EB%A1%9C%20%EB%B4%84%EC%9D%84%20%EB%A7%9E%EC%9D%B4%ED%95%9C%EB%8B%A4%20%ED%99%98%ED%9D%AC%EC%97%90%20%EC%B0%A8"
+          "url": "https://www.youtube.com/results?search_query=%EB%8B%A8%ED%8E%B8%EC%84%A0%20%EC%88%9C%EA%B0%84%EB%93%A4%20%EC%83%88%EB%93%A4%EC%9D%80%20%EA%B8%B0%EC%81%A8%EC%9D%98%20%EB%85%B8%EB%9E%98%EB%A1%9C%20%EB%B4%84%EC%9D%84%20%EB%A7%9E%EC%9D%B4%ED%95%9C%EB%8B%A4%20%ED%99%98%ED%9D%AC%EC%97%90%20%EC%B0%A8",
+          "note": "비발디 「봄」의 첫 구절을 닮은 제목에서 영감을 얻었다."
       },
       {
           "kind": "음악",
