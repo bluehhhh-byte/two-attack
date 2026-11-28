@@ -64,28 +64,32 @@
           "by": "장정일",
           "title": "내게 거짓말을 해봐",
           "year": 1996,
-          "url": "https://www.youtube.com/results?search_query=%EC%9E%A5%EC%A0%95%EC%9D%BC%20%EB%82%B4%EA%B2%8C%20%EA%B1%B0%EC%A7%93%EB%A7%90%EC%9D%84%20%ED%95%B4%EB%B4%90"
+          "url": "https://www.youtube.com/results?search_query=%EC%9E%A5%EC%A0%95%EC%9D%BC%20%EB%82%B4%EA%B2%8C%20%EA%B1%B0%EC%A7%93%EB%A7%90%EC%9D%84%20%ED%95%B4%EB%B4%90",
+          "note": "서로를 아프게 하며 서로에게 닿으려는 관계. 그리고 거짓말이라는 놀이."
       },
       {
           "kind": "소설",
           "by": "이영도",
           "title": "폴라리스 랩소디",
           "year": 2000,
-          "url": "https://www.youtube.com/results?search_query=%EC%9D%B4%EC%98%81%EB%8F%84%20%ED%8F%B4%EB%9D%BC%EB%A6%AC%EC%8A%A4%20%EB%9E%A9%EC%86%8C%EB%94%94"
+          "url": "https://www.youtube.com/results?search_query=%EC%9D%B4%EC%98%81%EB%8F%84%20%ED%8F%B4%EB%9D%BC%EB%A6%AC%EC%8A%A4%20%EB%9E%A9%EC%86%8C%EB%94%94",
+          "note": "자유와 복수. 두 개의 태양은 아직 한 하늘에 뜰 수 없다는 것."
       },
       {
           "kind": "소설",
           "by": "한강",
           "title": "채식주의자",
           "year": 2007,
-          "url": "https://www.youtube.com/results?search_query=%ED%95%9C%EA%B0%95%20%EC%B1%84%EC%8B%9D%EC%A3%BC%EC%9D%98%EC%9E%90"
+          "url": "https://www.youtube.com/results?search_query=%ED%95%9C%EA%B0%95%20%EC%B1%84%EC%8B%9D%EC%A3%BC%EC%9D%98%EC%9E%90",
+          "note": "남의 손에 들린 몸을 자기 것으로 되찾으려는 여자."
       },
       {
           "kind": "영화",
           "by": "미카엘 하네케",
           "title": "피아니스트",
           "year": 2001,
-          "url": "https://www.youtube.com/results?search_query=%EB%AF%B8%EC%B9%B4%EC%97%98%20%ED%95%98%EB%84%A4%EC%BC%80%20%ED%94%BC%EC%95%84%EB%8B%88%EC%8A%A4%ED%8A%B8%20%EC%98%88%EA%B3%A0%ED%8E%B8"
+          "url": "https://www.youtube.com/results?search_query=%EB%AF%B8%EC%B9%B4%EC%97%98%20%ED%95%98%EB%84%A4%EC%BC%80%20%ED%94%BC%EC%95%84%EB%8B%88%EC%8A%A4%ED%8A%B8%20%EC%98%88%EA%B3%A0%ED%8E%B8",
+          "note": "어머니에게 길든 중년의 몸, 규칙으로 쓴 욕망, 그리고 무대를 등지고 걸어 나가는 마지막 걸음."
       },
       {
           "kind": "음악",
@@ -127,7 +131,8 @@
           "by": "단편선 순간들",
           "title": "오늘보다 더 기쁜 날은 남은 생에 많지 않을 것이다",
           "year": 2024,
-          "url": "https://www.youtube.com/results?search_query=%EB%8B%A8%ED%8E%B8%EC%84%A0%20%EC%88%9C%EA%B0%84%EB%93%A4%20%EC%98%A4%EB%8A%98%EB%B3%B4%EB%8B%A4%20%EB%8D%94%20%EA%B8%B0%EC%81%9C%20%EB%82%A0%EC%9D%80%20%EB%82%A8%EC%9D%80%20%EC%83%9D%EC%97%90%20%EB%A7%8E%EC%A7%80%20%EC%95%8A%EC%9D%84%20%EA%B2%83%EC%9D%B4%EB%8B%A4"
+          "url": "https://www.youtube.com/results?search_query=%EB%8B%A8%ED%8E%B8%EC%84%A0%20%EC%88%9C%EA%B0%84%EB%93%A4%20%EC%98%A4%EB%8A%98%EB%B3%B4%EB%8B%A4%20%EB%8D%94%20%EA%B8%B0%EC%81%9C%20%EB%82%A0%EC%9D%80%20%EB%82%A8%EC%9D%80%20%EC%83%9D%EC%97%90%20%EB%A7%8E%EC%A7%80%20%EC%95%8A%EC%9D%84%20%EA%B2%83%EC%9D%B4%EB%8B%A4",
+          "note": "여섯 장의 제목은 이 노래들에서 빌려 왔다."
       }
   ];
 
@@ -486,20 +491,22 @@
         <span class="credits-sign">투 어택 · 2026. 11. 24.</span>
         ${withButton ? '<button type="button" class="btn-open-book btn-back-cover" data-action="back-to-cover">처음으로 돌아가기</button>' : ''}
       </div>`;
-  // Afterword blocks, each a paginatable item; the inspiration list is one block so it stays on a single page
+  // Afterword blocks, each a paginatable item; the inspiration list paginates entry by entry
   const AFTERWORD_ITEMS = AFTERWORD_PARAS.map((t) => t === '*' ? '<p class="novel-para credits-para credits-break">＊</p>' : `<p class="novel-para">${escapeHtml(t)}</p>`);
   const SIGNATURE_HTML = (AFTERWORD_SIGNATURE ? `<p class="novel-para credits-para credits-signature">${escapeHtml(AFTERWORD_SIGNATURE)}</p>` : '') + '<div class="credits-top credits-end-bottom"><span class="credits-end-mark">끝</span></div>';
-  const INSPIRATIONS_HTML = '<div class="credits-refs"><p class="credits-ref-head">이 이야기에 영감을 준 것들</p>' +
-    INSPIRATIONS.map((r, i) => `<p class="credits-ref"><a href="${r.url}" target="_blank" rel="noopener"><span class="ref-no">${i + 1}.</span> <span class="ref-kind">(${r.kind})</span> ${escapeHtml(r.by)}, 〈${escapeHtml(r.title)}〉 ${r.year ? `<span class="ref-year">(${r.year})</span>` : ''}</a></p>`).join('') +
-    '</div>';
+  // One item per entry so a long list can run onto a second page; each entry may carry a one-line note
+  const INSPIRATION_ITEMS = ['<p class="credits-ref-head">이 이야기에 영감을 준 것들</p>'].concat(
+    INSPIRATIONS.map((r, i) => `<p class="credits-ref${r.note ? ' has-note' : ''}"><a href="${r.url}" target="_blank" rel="noopener"><span class="ref-no">${i + 1}.</span> <span class="ref-kind">(${r.kind})</span> ${escapeHtml(r.by)}, 〈${escapeHtml(r.title)}〉 ${r.year ? `<span class="ref-year">(${r.year})</span>` : ''}</a>${r.note ? `<span class="credits-ref-note">${escapeHtml(r.note)}</span>` : ''}</p>`));
+  const INSPIRATIONS_HTML = '<div class="credits-refs">' + INSPIRATION_ITEMS.join('') + '</div>';
   const creditsItemHtml = (html) => html;
 
   // Each inspiration line stays on one line: shrink the font until it fits (phones are narrow)
   function fitRefLines(root) {
     root.querySelectorAll('.credits-ref').forEach((p) => {
+      const link = p.querySelector('a') || p;
       let size = 13;
       p.style.fontSize = size + 'px';
-      while (p.scrollWidth > p.clientWidth && size > 9) { size -= 0.5; p.style.fontSize = size + 'px'; }
+      while (link.getBoundingClientRect().width > p.clientWidth && size > 9) { size -= 0.5; p.style.fontSize = size + 'px'; }
     });
   }
 
@@ -580,7 +587,7 @@
     // Signature is the tail: it never sits alone, the last paragraph moves with it if needed
     fillPages(measureBody, maxBodyHeight, AFTERWORD_ITEMS, creditsItemHtml, CREDITS_TOP_HTML, SIGNATURE_HTML, true).forEach((pg) => pushCredits(pg, 0));
     // Inspirations always open a fresh page, with the back-to-cover button beneath
-    fillPages(measureBody, maxBodyHeight, [INSPIRATIONS_HTML], creditsItemHtml, '', creditsBottomHtml(true)).forEach((pg) => pushCredits(pg, AFTERWORD_ITEMS.length));
+    fillPages(measureBody, maxBodyHeight, INSPIRATION_ITEMS, creditsItemHtml, '', creditsBottomHtml(true)).forEach((pg) => pushCredits(pg, AFTERWORD_ITEMS.length));
     measureBody.classList.remove('credits-page');
     state.pages = pages;
     state.chapterStartPages = chapterStartPages;

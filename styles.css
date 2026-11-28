@@ -450,11 +450,11 @@ html[data-theme="sepia"] .cover-title, html[data-theme="paper"] .cover-title, ht
 .credits-page p.credits-para { text-indent: 0; margin-bottom: 0.95em; font-size: 0.94em; color: var(--text-secondary); }
 .credits-page p.credits-signature { text-align: right; color: var(--text-primary); }
 .credits-refs { padding-top: 18px; text-align: left; }
-.credits-refs .credits-ref-head { margin: 0 0 1.2em; font-family: var(--font-ui); font-size: 0.74rem; letter-spacing: 0.16em; color: var(--text-muted); text-indent: 0; }
-.credits-refs .credits-ref { margin-bottom: 0.9em; font-family: var(--font-ui); font-size: 13px; letter-spacing: -0.01em; line-height: 1.5; text-indent: 0; white-space: nowrap; text-align: left; }
-.credits-refs .credits-ref a { color: var(--text-primary); text-decoration: none; border-bottom: 1px solid var(--accent-line); padding-bottom: 1px; }
-.credits-refs .credits-ref a:hover { color: var(--accent); border-bottom-color: var(--accent); }
-.credits-refs .ref-no, .credits-refs .ref-kind, .credits-refs .ref-year { color: var(--text-muted); font-size: 0.9em; }
+.credits-ref-head { margin: 0 0 1.2em; font-family: var(--font-ui); font-size: 0.74rem; letter-spacing: 0.16em; color: var(--text-muted); text-indent: 0; }
+.credits-ref { margin-bottom: 0.9em; font-family: var(--font-ui); font-size: 13px; letter-spacing: -0.01em; line-height: 1.5; text-indent: 0; white-space: nowrap; text-align: left; }
+.credits-ref a { color: var(--text-primary); text-decoration: none; border-bottom: 1px solid var(--accent-line); padding-bottom: 1px; }
+.credits-ref a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+.credits-ref .ref-no, .credits-ref .ref-kind, .credits-ref .ref-year { color: var(--text-muted); font-size: 0.9em; }
 .scroll-credits-block .credits-refs { max-width: 420px; margin: 0 auto; }
 
 .cover-genre {
@@ -841,7 +841,9 @@ html[data-theme="sepia"] .cover-title, html[data-theme="paper"] .cover-title, ht
 }
 
 .credits-page p.credits-break { text-align: center; text-indent: 0; color: var(--text-muted); margin: 1.2em 0; }
-.credits-refs .credits-ref-note { margin: 0 0 1.6em; font-family: var(--font-ui); font-size: 0.78rem; line-height: 1.6; color: var(--text-muted); text-indent: 0; white-space: normal; }
+.credits-ref.has-note { margin-bottom: 1.15em; }
+.credits-ref .credits-ref-note { display: block; margin-top: 0.3em; font-size: 12px; letter-spacing: 0; line-height: 1.6; color: var(--text-muted); white-space: normal; word-break: keep-all; }
+.page-body-content > .credits-ref-head { padding-top: 18px; }
 .credits-end-bottom { padding: 30px 0 6px; }
 
 /* 기울임 aside (*…*) */
