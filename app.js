@@ -105,6 +105,7 @@
           "kind": "소설",
           "by": "이영도",
           "title": "폴라리스 랩소디",
+          "year": 2000,
           "url": "https://www.youtube.com/results?search_query=%EC%9D%B4%EC%98%81%EB%8F%84%20%ED%8F%B4%EB%9D%BC%EB%A6%AC%EC%8A%A4%20%EB%9E%A9%EC%86%8C%EB%94%94"
       },
       {
